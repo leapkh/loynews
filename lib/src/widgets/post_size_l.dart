@@ -26,14 +26,15 @@ class PostSizeL extends StatelessWidget {
         ),
         child: Column(
           children: [
-            Container(
-              height: 200,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16)),
-                image: DecorationImage(
-                  image: AssetImage('lib/images/slides/slide_2.png'),
-                  fit: BoxFit.cover
-                )
+            Expanded(
+              child: Container(
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(16), topRight: Radius.circular(16)),
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/slides/slide_2.png'),
+                    fit: BoxFit.cover
+                  )
+                ),
               ),
             ),
             Container(
