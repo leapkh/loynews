@@ -6,6 +6,13 @@ void main() {
     home: LandingScreen(),
     title: 'Loynews',
     debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+    primarySwatch: Colors.blue,
+    appBarTheme: const AppBarTheme(
+      iconTheme: IconThemeData(color: Colors.black),
+      foregroundColor: Colors.black,
+      ),
+    ),
   );
 
   runApp(app);
