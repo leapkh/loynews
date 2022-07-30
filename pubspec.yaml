@@ -37,6 +37,8 @@ dependencies:
   carousel_slider: ^4.1.1
   gap: ^2.0.0
   dots_indicator: ^2.1.0
+  http: ^0.13.4
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:

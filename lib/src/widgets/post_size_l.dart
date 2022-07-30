@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/model/post.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 import 'package:loynews/src/widgets/icon_date_widget.dart';
 
 import '../ui/screen/detail_screen.dart';
 
 class PostSizeL extends StatelessWidget {
-  const PostSizeL({Key? key}) : super(key: key);
+  const PostSizeL(this.post, {Key? key}) : super(key: key);
+  final Post post;
 
   @override
   Widget build(BuildContext context) {
@@ -42,12 +44,12 @@ class PostSizeL extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    'ដាក់CVភ្លាម! សម្ភាសភ្លាមពីក្រុមហ៊ុនធំៗចំនួន១0 ជាមួយឱកាស...',
+                    post.title.rendered,
                     style: Styles.headLineStyle1,
                   ),
                   const Gap(8),
                   Text(
-                    'ទីភ្នាក់ងារជាតិមុខរបរ និងការងារ សហការជាមួយ សសយក វិស័យការងារនិងបណ្តុះបណ្តាលវិជ្ជាជីវៈរៀបចំវេទិកាការងារប្រចាំខែ ដោយមានក្រុមហ៊ុនធំៗចំនួន១០ ដោយនាំយកនូវឱកាសការងារចំនួន ១៣៧៧ កន្លែង។...',
+                    post.title.rendered,
                     style: Styles.textStyle,
                   ),
                   const Gap(8),

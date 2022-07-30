@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 
 class ViewAllWidget extends StatelessWidget {
   final bool? isViewAll;

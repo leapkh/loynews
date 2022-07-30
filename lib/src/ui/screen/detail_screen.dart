@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 import 'package:loynews/src/widgets/post_size_l.dart';
 import 'package:loynews/src/widgets/tag_widget.dart';
 import 'package:loynews/src/widgets/view_all_widget.dart';

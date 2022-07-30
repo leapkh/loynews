@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:loynews/src/ui/screen/detail_screen.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 
 import 'icon_date_widget.dart';
 

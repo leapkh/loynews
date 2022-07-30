@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 
 class TagWidget extends StatelessWidget {
   const TagWidget({Key? key}) : super(key: key);

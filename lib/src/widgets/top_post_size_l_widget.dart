@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
 import '../ui/screen/detail_screen.dart';
-import '../utilitys/app_styles.dart';
+import '../utility/app_styles.dart';
 import 'icon_date_widget.dart';
 
 class TopPostSizeLWidget extends StatelessWidget {

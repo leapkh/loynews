@@ -28,7 +28,6 @@ class HomeScreen extends StatelessWidget {
               const PostSizeS(),
               const SmallSponsoreWidget(size: 's',),
               const ViewAllWidget(firstText: 'ជម្រើសអត្ថបទសម្រាប់អ្នក', secondText: 'មើលទាំងអស់', isColor: true),
-              const PostSizeL(),
               const Gap(4),
               const PostSizeS(),
               const PostSizeS(),
@@ -53,11 +52,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               const ViewAllWidget(firstText: 'ព័ត៌មានចុងក្រោយ', secondText: 'មើលទាំងអស់', isColor: true, isViewAll: true,),
-              const PostSizeL(),
-              const PostSizeL(),
-              const PostSizeL(),
-              const PostSizeL(),
-              const PostSizeL(),
+    
             ],
           ),
         )

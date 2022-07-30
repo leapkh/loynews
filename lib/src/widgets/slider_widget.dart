@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:loynews/src/utilitys/app_styles.dart';
+import 'package:loynews/src/utility/app_styles.dart';
 import 'package:loynews/src/widgets/icon_date_widget.dart';
 
 class SliderWidget extends StatefulWidget {

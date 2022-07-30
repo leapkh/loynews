@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../utilitys/app_styles.dart';
+import '../utility/app_styles.dart';
 
 class FavoritedButton extends StatefulWidget {
   FavoritedButton({Key? key}) : super(key: key);
