@@ -94,7 +94,7 @@ class PostsScreen extends StatelessWidget {
   Widget get latestPostsWidget {
     return Obx(() {
       final status = viewModel.data.status;
-      if (status == RemoteDataStatus.loading) {
+      if (status == RemoteDataStatus.processing) {
         return Widgets.loading;
       } else if (status == RemoteDataStatus.error) {
         return Widgets.error;
@@ -112,6 +112,8 @@ class PostsScreen extends StatelessWidget {
 
   Widget postItemWidget(BuildContext context, int index) {
     final post = viewModel.data.data![index];
-    return PostSizeL(post);
+    return PostSizeL(post, onDeleteClick: (){
+      viewModel.removePost(post);
+    },);
   }
 }

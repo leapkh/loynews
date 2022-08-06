@@ -1,15 +1,17 @@
 class RemoteData<T> {
 
   final RemoteDataStatus status;
+  final String? message;
   T? data;
 
   RemoteData({
     required this.status,
-    required this.data,
+    this.message,
+    this.data,
   });
 
 }
 
 enum RemoteDataStatus {
-  loading, loaded, error
+  none, processing, success, error
 }

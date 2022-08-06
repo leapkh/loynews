@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238081551659",
+    "project_id": "loynews-14040",
+    "storage_bucket": "loynews-14040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238081551659:android:334a87f172e0f816bf296e",
+        "android_client_info": {
+          "package_name": "com.buyloy.loynews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238081551659-imblo3spuoar8nsofklh7l6odkjt47bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jbS5RcNm4gOJRoI4cDR4l7JQ-KFr3h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238081551659-imblo3spuoar8nsofklh7l6odkjt47bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

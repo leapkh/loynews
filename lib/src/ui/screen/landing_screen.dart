@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:loynews/src/ui/screen/new_post_screen.dart';
 import 'package:loynews/src/ui/screen/posts_screen.dart';
 
 class LandingScreen extends StatelessWidget {
@@ -54,7 +56,9 @@ class LandingScreen extends StatelessWidget {
           onPressed: () {},
         ),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.search_rounded)),
+          IconButton(onPressed: () {
+            Get.to(()=>NewPostScreen());
+          }, icon: const Icon(Icons.search_rounded)),
           IconButton(onPressed: () {}, icon: const Icon(Icons.sunny))
         ],
         backgroundColor: Colors.white,
